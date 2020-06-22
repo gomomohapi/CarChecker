@@ -21,7 +21,7 @@ namespace CarChecker.Server.Controllers
             // simply random.
 
             var rng = new Random();
-            return new DamageDetectionResult
+            return new DamageDetectionResult //Ay
             {
                 IsDamaged = rng.Next(2) == 0,
                 Score = 0.5 + rng.NextDouble() / 2,
